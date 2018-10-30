@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Hotel MIS</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+    </head>
+    <body>
+        <div class="ui segment">
+        <div class="ui active dimmer">
+            <div class="ui massive text loader">Loading</div>
+        </div>
+			
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <a href="index.html" class="logo">Web</a>
+                <nav id="nav">
+                    <a href="index.html">Home</a>
+                    <a href="#member">Members</a>
+                    <a href="#topic">Topic</a>
+                </nav>
+
+            </div>
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+            
+        </section>
+
+		<!-- Two -->
+            <section id="member" class="wrapper style1 special">
+                <div class="inner">
+                    <header>
+                        <h2>Team Members</h2>
+                    </header>
+                    <div class="flex flex-4">
+                    <div class="box person">
+                    <div class="image round">
+                    <img  src="images/pic1.jpg" alt="Person 1" />
+                    </div>
+                    <h3>陳佩昌</h3>
+                    </div>
+
+                    <div class="box person">
+                    <div class="image round">
+                        <img src="images/pic2.jpg" alt="Person 2" />
+                    </div>
+                    <h3>賴振東</h3>
+                    </div>
+
+                    <div class="box person">
+                    <div class="image round">
+                        <img src="images/pic3.jpg" alt="Person 3" />
+                    </div>
+                    <h3>紀耀琛</h3>
+                    </div>
+
+                    <div class="box person">
+                    <div class="image round">
+                        <img src="images/pic4.jpg" alt="Person 4" />
+                    </div>
+                    <h3>謝士廉</h3>
+                    </div>
+                    
+                    <div class="box person">
+                    <div class="image round">
+                        <img src="images/pic5.jpg" alt="Person 5" />
+                    </div>
+                    <h3>張嘉榮</h3>
+
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+		<!-- Three -->
+            <section id="topic" class="wrapper special">
+                <div class="inner">
+                    <header class="align-center">
+                    <h2>Hotel MIS</h2>
+                    </header>
+                    <div class="flex flex-2">
+                        <article>
+                        <div class="image fit">
+                            <img src="images/link_pic.jpg" alt="Pic 01" />
+                        </div>
+                        <header>
+                            <h3>Fetching Data From Cloud</h3>
+                        </header>
+                        <p>
+                            We fetch hotel booking information from different kinds of
+                            booking system, like Trivago, Booking, ect.
+
+                        </p>
+                        </article>
+
+                        <article>
+                        <div class="image fit">
+                            <img src="images/cloud.png" alt="Pic 02" />
+                        </div>
+                        <header>
+                            <h3>Update Latest Information Automatically</h3>
+                        </header>
+                        <p>
+                            Our system will update the booking information whenever there is
+                            a new order.
+                        </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            </div>
+			
+            <script>
+                window.onload = () => {
+                    $('.ui.dimmer').removeClass('active');
+                    $('body').removeClass('loading');
+                    
+                };
+
+            </script>
+    </body>
+</html>
